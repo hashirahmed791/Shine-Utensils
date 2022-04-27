@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>COMPARE PAGE</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .navbar .navbar-nav .nav-link {
+            color: #000000;
+            font-size: 1.1em;
+        }
+
+        .navbar .navbar-nav .nav-link:hover {
+            color: #e3eaee;
+        }
+
+        footer .content-box-foot {
+            text-align: center;
+            font-size: large;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .x {
+            background: linear-gradient(to right, #b3bebe, #2c2f30);
+            color: rgb(14, 13, 13);
+            padding: 10px 10px 10px 0px;
+        }
+
+        h1 {
+            padding: 0;
+            margin: 0;
+            margin-top: 30px;
+            position: relative;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        h1::before {
+            content: "";
+            height: 2px;
+            width: 5%;
+            position: absolute;
+            background-color: #ab9b66;
+            bottom: 0;
+        }
+
+        .top-categories {
+            padding: 20px;
+        }
+
+        .top-categories .category-box h1 {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 40px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .top-categories .category-box ul {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            flex-flow: wrap;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+
+        .top-categories .category-box ul li {
+            list-style: none;
+            margin-bottom: 50px;
+            max-width: 30.33%;
+            flex: 0 0 30.33%;
+            text-align: center;
+        }
+
+        .top-categories .category-box ul li a {
+            text-decoration: none;
+            border: 2px solid #000000;
+            color: rgb(3, 3, 3);
+            width: 150px;
+            display: inline-block;
+            padding: 16px 0px;
+            text-align: center;
+        }
+
+        .top-categories .category-box ul li a:hover {
+            background-color: #000000;
+            color: white;
+            transition: .5s;
+        }
+
+        /* footer */
+        a:link {
+            text-decoration: none;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body class="container-fluid">
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"
+        style="background: linear-gradient(to right, #b3bebe, #2c2f30);font-family: Georgia, 'Times New Roman', Times, serif;font-weight: bold;">
+
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/icons8-tableware-50.png" alt=""></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">HOME<span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ABOUT.HTML">ABOUT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">CATEGORIES</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId"
+                            style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;font-weight: bolder;font-size: large;">
+                            <a class="dropdown-item" href="spoons.html">SPOONS</a>
+                            <a class="dropdown-item" href="plates.html">PLATES</a>
+                            <a class="dropdown-item" href="bowls.html">BOWLS</a>
+                            <a class="dropdown-item" href="cups.html">CUPS</a>
+                            <a class="dropdown-item" href="glasses.html">GLASSES</a>
+                            <a class="dropdown-item" href="otheritem.html"> OTHER UTENSILS ITEMS</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="CONTACT.HTML">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="compare.html">COMPARE PRODUCTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">FEEDBACK</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+
+       <h1>COMPARE SPOONS</h1> <br>
+    <div class="row">
+        <div class="col-4">
+            <!-- dropdown start -->
+            <input type="text" list="compare" id="abc" class="form-select">
+            <datalist id="compare">
+                <option value="GOLDEN SPOON SET">
+                <option value="GOLDEN GREEN SPOON SET">
+                <option value="SILVER SPOON SET">
+                <option value="NONSTICK BLACK SPOON SET">
+                <option value="WOODEN BLACK SPOON SET">
+                <option value="SPATULA SPOON SET">
+            </datalist>
+            <p id="ans"></p>
+        </div>
+        <div class="col-4">
+            <button type="button" class="btn btn-outline-dark form-control" onClick="both()">COMPARE</button>
+        </div>
+
+        <div class="col-4">
+            <input type="text" list="compare" id="abc1" class="form-select">
+            <datalist id="compare">
+                <option value="GOLDEN SPOON SET">
+                <option value="GOLDEN GREEN SPOON SET">
+                <option value="SILVER SPOON SET">
+                <option value="NONSTICK BLACK SPOON SET">
+                <option value="WOODEN BLACK SPOON SET">
+                <option value="SPATULA SPOON SET">
+            </datalist>
+
+            <p id="ans1"></p>
+        </div>
+    </div>
+    <!-- dropdown end -->
+    <br>
+
+
+    <script>
+
+        function fun1() {
+
+            var a = document.getElementById("abc").value;
+            if (a == "GOLDEN SPOON SET") {
+                document.getElementById("ans").innerHTML = "<img src='./spoon/1.jpg' height=300 width=300><br>Key Features<br> Heat Resistant Cookware <br> Stainless Steel Handle <br> price:7$ ";
+            }
+
+
+            else if (a == "GOLDEN GREEN SPOON SET") {
+                document.getElementById("ans").innerHTML = "<img src='./spoon/2.jpg' height=300 width=300><br>Key Features<br>Heat Resistant Cookware <br> Stainless Steel Handle<br>price:9$ ";
+            }
+
+
+            else if (a == "SILVER SPOON SET") {
+                document.getElementById("ans").innerHTML = "<img src='./spoon/5.jpg' height=300 width=300><br>Key Features<br>  Heat Resistant Cookware <br> Stainless Steel Handle <br> price:10$ ";
+            }
+            else if (a == "NONSTICK BLACK SPOON SET") {
+                document.getElementById("ans").innerHTML = "<img src='./spoon/9.jpg' height=300 width=300><br>Key Features<br> Heat Resistant Cookware <br> Stainless Steel Handle <br> price:17$ ";
+            }
+            else if (a == "WOODEN BLACK SPOON SET") {
+                document.getElementById("ans").innerHTML = "<img src='./spoon/21.jpg' height=300 width=300><br>Key Features<br> Heat Resistant Cookware <br> Stainless Steel Handle <br> price:3$ ";
+            }
+            else if (a == "SPATULA SPOON SET") {
+                document.getElementById("ans").innerHTML = "<img src='./spoon/22.jpg' height=300 width=300><br>Key Features<br>  Heat Resistant Cookware <br> Stainless Steel Handle <br> price:16$ ";
+            }
+            else {
+
+                document.getElementById("ans").innerHTML = "Invalid";
+            }
+
+
+        }
+
+
+
+        function fun2() {
+
+            var a = document.getElementById("abc1").value;
+
+            if (a == "GOLDEN SPOON SET") {
+                document.getElementById("ans1").innerHTML = "<img src='./spoon/3.jpg' height=300 width=300><br>Key Features<br>  Heat Resistant Cookware <br> Stainless Steel Handle <br> price:17$ ";
+            }
+
+
+            else if (a == "GOLDEN GREEN SPOON SET") {
+                document.getElementById("ans1").innerHTML = "<img src='./spoon/5.jpg' height=300 width=300><br>Key Features<br>Heat Resistant Cookware <br> Stainless Steel Handle <br> price:20$ ";
+            }
+
+
+            else if (a == "SILVER SPOON SET") {
+                document.getElementById("ans1").innerHTML = "<img src='./spoon/6.jpg' height=300 width=300><br>Key Features<br> Heat Resistant Cookware <br> Stainless Steel Handle <br> price:9$ ";
+            }
+            else if (a == "NONSTICK BLACK SPOON SET") {
+                document.getElementById("ans1").innerHTML = "<img src='./spoon/15.jpg' height=300 width=300><br>Key Features<br>  Heat Resistant Cookware <br> Stainless Steel Handle <br> price:5$ ";
+            }
+            else if (a == "WOODEN BLACK SPOON SET") {
+                document.getElementById("ans1").innerHTML = "<img src='./spoon/18.jpg' height=300 width=300><br>Key Features<br>  Heat Resistant Cookware <br> Stainless Steel Handle <br> price:8$ ";
+            }
+            else if (a == "SPATULA SPOON SET") {
+                document.getElementById("ans1").innerHTML = "<img src='./spoon/25.jpg' height=300 width=300><br>Key Features<br> Heat Resistant Cookware <br> Stainless Steel Handle <br> price:15$ ";
+            }
+            else {
+
+                document.getElementById("ans1").innerHTML = "Invalid";
+            }
+
+
+        }
+
+        function both() {
+            fun1();
+            fun2();
+        }
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="x">
+        <div style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;">
+            <div class="row">
+                <div class="col">
+                    <img src="images/icons8-tableware-50.png" alt="" srcset="">
+                    <p>
+                        Our utensils a day keeps bad food away
+                        Your personal cooking utensils
+                        Bringing forth joy
+                        Get everything in one spot
+                        For a better cooking experience
+                        Now,The utensils you must have
+                        The perfect fit for your kitchen
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>FOLLOW US</h2>
+                    <img src="other utensils/i1.png" alt="" srcset="" height="20px" width="20px"> INSTAGRAM <br>
+                    <img src="other utensils/t1.png" alt="" srcset="" height="20px" width="20px"> TWITTER <br>
+                    <img src="other utensils/f1.png" alt="" srcset="" height="20px" width="20px"> FACEBOOK <br>
+                    <img src="other utensils/icons8-whatsapp-48.png" alt="" srcset="" height="20px" width="20px">
+                    WHATSAPP <br>
+                    <img src="other utensils/icons8-linkedin-48.png" alt="" srcset="" height="20px" width="20px">
+                    LINKEDIN <br>
+                    <img src="other utensils/icons8-gmail-48.png" alt="" srcset="" height="20px" width="20px"> GMAIL
+
+                </div>
+                <div class="col">
+                    <h2> QUICK MENU </h2>
+                    <a href="index.html"><span style="color: #000000;">NEW ARRIVALS</span> </a> <br>
+                    <a href="ABOUT.HTML"> <span style="color: #000000;">ABOUT US</span> </a><br>
+                    <a href="CONTACT.HTML"> <span style="color: #000000;">DELIVERY </span> </a><br>
+                    <a href="CONTACT.HTML"><span style="color: #000000;"> CONTACT US</span> </a><br>
+                    <a href="index.html"> <span style="color: #000000;">RETURN </span> </a>
+                </div>
+                <div class="col">
+                    <h2> CONTACT </h2>
+
+                    PHONE.NO: <span>(+123)571 720</span> <br>
+                    PHONE.NO: <span>(+123)567 205</span> <br>
+                    FAX: <span>(+123)571 720</span> <br>
+                    EMAIL: <span> mahnoorsheikh@gmail.com </span>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <footer style="background-color: #000000;color:white;padding-top: 10px;padding-bottom: 10px;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="content-box-foot">
+                        <p> Copyright &copy; 2021 SHINE UTENSILS - All Right Reserved </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
